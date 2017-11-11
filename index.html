@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700'>
+    <link rel="icon" href="images/Arpana.jpg" type="image/jpg">
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <title>Arpana Ijantkar - Portfolio</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row text-uppercase">
+        <div class="col-md-2">
+          <img class="header-image" src="images/Arpana.jpg" width="120" height="100" alt="A small headshot of Arpana Ijantkar" data-toggle="modal" data-target="#aboutMe">
+        </div>
+		<div class="col-md-10 text-right">
+          <h2>Arpana Ijantkar</h2>
+          <h5>Programmer and Software Developer</h5>
+        </div>
+      </div>
+	  <hr>
+		<div class="row">
+          <div class="col-md-12">
+            <img class="img-responsive" src="images/ATTHeadquarters-Header.jpg" width="1140" height="310" alt="AT&T office Dallas">
+          </div>
+        </div>
+
+      <h2>Featured Work</h2>
+
+      <div class="row text-center">
+        <div class="col-md-4">
+          <img class="img-responsive center-block" src="images/movie.jpg" width="360" height="243" alt="Movie Trailer" data-toggle="modal" data-target="#movie">
+          <h3>Movie Trailer</h3>
+          <p>
+            <a href="https://github.com/ArpanaI/Movie-Trailer" target="_blank">
+              https://github.com/ArpanaI/Movie-Trailer
+            </a>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-responsive center-block" src="images/myPortfolio.jpg" width="360" height="247" alt="portfolio" data-toggle="modal" data-target="#portfolio"><br>
+          <h3>My Portfolio</h3>
+        </div>
+        <div class="col-md-4">
+          <img class="img-responsive center-block" src="images/RAT.jpg" width="360" height="247" alt="Risk Assessment Tool" data-toggle="modal" data-target="#rat"><br><br>
+          <h3>Risk Assessment Tool</h3>
+        </div>
+      </div>
+	</div>
+
+    <footer class="text-center">
+      <a href="https://www.linkedin.com/in/arpana-ijantkar-4485972a" target="_blank">
+        <img src="images/linkedin.png" width="24" height="24" alt="linkedIn">
+      </a>
+	</footer>
+
+    <!-- Modals -->
+    <div class="modal fade" id="movie" tabindex="-1" role="dialog" aria-labelledby="movieModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-uppercase text-center" id="movieModalLabel">Movie Trailer</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive modal-image" src="images/movie.jpg" width="568" height="384" alt="A screenshot of my online movie trailer">
+            Movie trailer website project is a part of the Udacity Full Stack Web Developer Nanodegree.
+			A Python program that produces the HTML for a movie website that displays a number of movies. 
+			Click on a movie poster to play its trailer.
+		  </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="portfolio" tabindex="-1" role="dialog" aria-labelledby="portfolioModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-uppercase text-center" id="portfolioModalLabel">Interactive Resume</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive modal-image" src="images/myPortfolio.jpg" width="568" height="390" alt="A screenshot of my online resume">
+            This online interactive portfolio was developed as part of project 2 of Udacity's Front End Web Developer Nanodegree. We were
+            given some existing javascript to modify and add the content.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="rat" tabindex="-1" role="dialog" aria-labelledby="ratModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-uppercase text-center" id="ratModalLabel">Risks Assessment Tool</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive modal-image" src="images/RAT.jpg" width="568" height="390" alt="A screenshot of my AT&T Risk Assessment Tool project">
+            This application is used by the technicians and network engineers in AT&T to calculate the Risk Factor 
+			associated with any given task and provide a method for granting approval from their Senior level of managers. 
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+	<div class="modal fade" id="aboutMe" tabindex="-1" role="dialog" aria-labelledby="aboutMeModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-uppercase text-center" id="aboutMeModalLabel">About Me</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive modal-image" src="images/Arpana.jpg" width="368" height="379" alt="A small head shot of Arpana Ijantkar">
+            <p>
+              A competent IT professional with over 10+ years of rich experience in the industry with reputed IT companies, managing & overseeing Project Management, the successful initiation, execution & delivery of software projects in a diverse range of technologies. Significant exposure of working in a competitive business environment with expertise in handling various IT projects efficiently in a team & demonstrative competencies in conceptualisation / creation of flexible / expandable software architecture to meet client requirements.  In depth knowledge and understanding of business process analysis, design, domain & technology expertise with strong integration skills & the ability to train and motivate cross-cultural teams in optimising their performance levels.
+            </p>
+			<p>
+			  Thanks for stopping and going through some of my work.
+			</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

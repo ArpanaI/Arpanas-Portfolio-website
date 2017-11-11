@@ -1,0 +1,58 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Palatino Linotype', sans-serif;
+  font-weight: 400;
+  color: #303E1A;
+}
+
+footer {
+  color: #bcbbbb;
+  margin-top: 20px;
+  font-size: smaller;
+}
+
+p {
+  word-wrap: break-word;
+}
+
+hr {
+  height: 4px;
+  color: #ccabab;
+  background-color: #ccabab;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 35px;
+  color: #cc7070;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+a {
+  color: #cc7070;
+}
+
+.header-image {
+  height: 120px;
+  width: auto;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.modal-image {
+  padding-bottom: 20px;
+}
